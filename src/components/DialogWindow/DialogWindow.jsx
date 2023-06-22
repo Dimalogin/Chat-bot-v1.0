@@ -10,7 +10,6 @@ function DialogWindow(props) {
   }
 
   return messages.map((object, index) => {
-    
     if (object.who === "bot") {
       if (object.isEmpty) {
         return (
@@ -27,16 +26,13 @@ function DialogWindow(props) {
             <div className="message-body body-bot">
               <h3 className="bot-title">{object.data.nickname}</h3>
               <div className="bot-text">
-                {object.data.message.map((image, index) => {
-                  return <BotImages key={index} image={image} />;
-                })}
+                <BotImages key={index} message={object.data.message} />
               </div>
             </div>
           </div>
         );
       }
     }
-
     if (object.who === "user") {
       return (
         <div key={index} className="message message-user">
