@@ -26,7 +26,7 @@ function DialogWindow(props) {
             <div className="message-body body-bot">
               <h3 className="bot-title">{object.data.nickname}</h3>
               <div className="bot-text">
-                <BotImages key={index} message={object.data.message} />
+                <BotImages message={object.data.message} />
               </div>
             </div>
           </div>
