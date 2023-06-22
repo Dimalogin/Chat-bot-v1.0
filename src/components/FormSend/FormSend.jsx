@@ -1,7 +1,7 @@
 import React from "react";
 import "./FormSend.css";
 import Loader from "../Loader/Loader.jsx";
-import getDateFromApi from "../../Utils/getDateFromApi.js";
+import getDateFromApi from "../../utils/getDateFromApi.js";
 
 function checkValidity(object) {
   if (object.status === 400 || object.photos.length < 5) {

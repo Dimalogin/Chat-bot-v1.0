@@ -4,7 +4,7 @@ import StartBotBtn from "../StartBotBtn/StartBotBtn.jsx";
 import WelcomeWindowBot from "../WelcomeWindow/WelcomeWindowBot.jsx";
 import FormSend from "../FormSend/FormSend.jsx";
 import DialogWindow from "../DialogWindow/DialogWindow.jsx";
-import arrayMessages from "../../Utils/arrayMessages.js";
+import arrayMessages from "../../utils/arrayMessages";
 
 function ChatWindow(props) {
   const { isOpen, userName } = props;

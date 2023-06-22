@@ -10,6 +10,7 @@ function DialogWindow(props) {
   }
 
   return messages.map((object, index) => {
+    
     if (object.who === "bot") {
       if (object.isEmpty) {
         return (
@@ -35,6 +36,7 @@ function DialogWindow(props) {
         );
       }
     }
+
     if (object.who === "user") {
       return (
         <div key={index} className="message message-user">

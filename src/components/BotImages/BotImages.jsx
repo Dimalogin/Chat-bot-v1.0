@@ -14,11 +14,12 @@ function BotImages(props) {
         onClick={() => {
           setOpenModal(true);
         }}
+        alt="bot"
       ></img>
       {openModal && (
         <div className="image-overlay">
           <div className="image-modal">
-            <img className="modal-image" src={image.src.landscape}></img>
+            <img className="modal-image" src={image.src.landscape} alt='bot'></img>
           </div>
           <button
             type="button"
@@ -27,7 +28,7 @@ function BotImages(props) {
               setOpenModal(false);
             }}
           >
-            <img className="close-icon" src={CloseBtn}></img>
+            <img className="close-icon" src={CloseBtn} alt="bot"></img>
           </button>
         </div>
       )}

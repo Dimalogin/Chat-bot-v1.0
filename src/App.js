@@ -1,7 +1,9 @@
+import React from "react";
 import "./App.css";
 import ModalWindow from "./components/ModalWindow/ModalWindow.jsx";
 import ChatWindow from "./components/WindowChat/ChatWindow.jsx";
 import checkValidity from "./utils/checkValidity";
+
 
 function App() {
   const [showModalWindow, setShowModalWindow] = React.useState(true);
