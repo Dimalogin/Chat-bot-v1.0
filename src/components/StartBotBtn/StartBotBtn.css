@@ -1,0 +1,12 @@
+.message-btn__start {
+  background-color: #d34339;
+  color: #fff;
+  min-height: 30px;
+  padding: 3px 15px;
+  border-radius: 3px;
+}
+
+.message-btn__start:hover {
+  background-color: #c1291f;
+  transition: all 0.3s ease-in-out;
+}
