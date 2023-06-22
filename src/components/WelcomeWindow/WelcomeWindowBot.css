@@ -1,0 +1,35 @@
+.message-welcome {
+  background-color: #fff;
+  max-width: 300px;
+  margin: 0 auto;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.welcome__title {
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.welcome__title span {
+  font-weight: 400;
+}
+
+.welcome__subtitle {
+  font-size: 0.9em;
+  margin-bottom: 10px;
+}
+
+.welcome-text {
+  font-size: 0.9em;
+  line-height: 18px;
+}
+
+.welcome-text:not(:last-child) {
+  margin: 0px 0px 5px 0px;
+}
+
+.text-p-2 b {
+  font-weight: bold;
+}
