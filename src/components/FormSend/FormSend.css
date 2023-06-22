@@ -1,0 +1,24 @@
+.messages-text {
+  background-color: #292c46;
+  border: 1px solid #41445a;
+  padding: 8px 10px;
+  min-height: 30px;
+  min-width: 70%;
+  margin-right: 30px;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 0.8em;
+}
+
+.messages-btn__send {
+  background-color: #d34339;
+  border-radius: 5px;
+  min-height: 30px;
+  padding: 3px 10px;
+  color: #fff;
+}
+
+.messages-btn__send:hover {
+  background-color: #c1291f;
+  transition: all 0.3s ease-in-out;
+}
