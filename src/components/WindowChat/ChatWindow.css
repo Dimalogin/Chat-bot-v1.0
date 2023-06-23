@@ -1,8 +1,7 @@
 .window-chat {
-  height: 600px;
   border-radius: 8px;
-  overflow: hidden;
   background-color: #393d5e;
+  overflow: hidden;
 }
 
 .chat__body {
@@ -57,19 +56,16 @@
 
 .main-messages {
   flex: 1 0 auto;
-  display: flex;
-  flex-flow: column nowrap;
 }
 
 .messages-message {
   width: 100%;
   padding: 30px 30px 0px 30px;
-  height: 470px;
+  height: calc(100vh - 400px);
   overflow: auto;
 }
 
 .messages__form {
-  flex: 1 1 auto;
   border-top: 1px solid #41445a;
   background-color: #2c2f48;
   display: flex;
@@ -77,12 +73,13 @@
   align-items: center;
   justify-content: center;
   padding: 3px 20px;
+  min-height: 80px;
 }
 
 @media (max-width: 650px) {
   .window-chat {
     border-radius: 0px;
-    height: 700px;
+    height: 100vh;
   }
 
   .chat-main {
@@ -101,6 +98,6 @@
   .messages-message {
     width: 100%;
     padding: 20px 10px 0px 10px;
-    height: 470px;
+    height: calc(100vh - 235px);
   }
 }
